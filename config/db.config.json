@@ -14,5 +14,9 @@
   "PAYMENT_DB": {
     "DB_USER": "xuritiPayment",
     "DB_PASSWORD": "xuriti%40payment%40123%40098"
+  },
+  "LOGS_DB": {
+    "DB_USER": "xuritiLogs",
+    "DB_PASSWORD": "xuriti%40logs%40123%40098"
   }
 }

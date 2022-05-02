@@ -9,7 +9,7 @@ const companySchema = new Schema(
     name: {
       type: String,
       maxlength: 50,
-    
+      required: [true, 'Please Enter Your Name.'],
     },
     email: {
       type: String,
@@ -32,7 +32,7 @@ const companySchema = new Schema(
       type: String,
       unique: true,
       min: [10, 'Phone Number Must Contain 10 Digits'],
-     
+      required: [true, 'Please Enter Your Phone Number'],
       validate: [validator.isMobilePhone, 'Please Enter Correct Mobile Number'],
       sparse: true,
     },
@@ -46,11 +46,11 @@ const companySchema = new Schema(
     },
     first_name: {
       type: String,
-     
+      required: [true, 'Please Enter Your First Name'],
     },
     last_name: {
       type: String,
-     
+      required: [true, 'Please Enter Last Name'],
     },
     user_role: {
       type: String,

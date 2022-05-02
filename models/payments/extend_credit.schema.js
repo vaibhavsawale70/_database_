@@ -29,6 +29,8 @@ const creditExtendSchema = new Schema({
   status: { type: String, default: 'Pending' },
   comment: { type: String, default: 'NA' },
   transaction_date: { type: Date },
+  invoice_number:{type:Number},
+  order_id :{ type: String, default: 'NA' },
 });
 
 module.exports = creditExtendSchema;
