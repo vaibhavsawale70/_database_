@@ -1,0 +1,18 @@
+{
+  "USER_DB": {
+    "DB_USER": "xuritiUser",
+    "DB_PASSWORD": "xuriti%40user%40123%40098"
+  },
+  "INVOICE_DB": {
+    "DB_USER": "xuritiInvoice",
+    "DB_PASSWORD": "xuriti%40invoice%40123%40098"
+  },
+  "ENTITY_DB": {
+    "DB_USER": "xuritiEntity",
+    "DB_PASSWORD": "xuriti%40entity%40123%40098"
+  },
+  "PAYMENT_DB": {
+    "DB_USER": "xuritiPayment",
+    "DB_PASSWORD": "xuriti%40payment%40123%40098"
+  }
+}
